@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>my PROJECT</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c37fdc414b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="loadermain">
+            <div class="loader">
+                <div class="dash moja"></div>
+                <div class="dash mbili"></div>
+                <div class="dash tatu"></div>
+                <div class="dash nne"></div>
+            </div>
+        </div>
+        <header>
+            <div class="nav">
+                <input type="checkbox" id="nav-check">
+                <div class="nav-header">
+                    <div class="nav-title"><a href="#">MY PROJECT</a></div>
+                </div>
+                <div class="nav-btn">
+                    <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+                <div class="nav-links">
+                    <a href="#" onclick="closeNav()">HOME</a>
+                    <a href="#" onclick="closeNav()">ABOUT</a>
+                    <a href="#" onclick="closeNav()">BLOG</a>
+                    <a href="#" onclick="closeNav()">CONTACT</a>
+                </div>
+            </div>
+        </header>
+        <img src="https://res.cloudinary.com/dlkqilyi0/image/upload/v1667982318/PORTOFOLIO/top_cema7p.png" onclick="topFunction()" id="scrollToTopBtn" alt="top">
+        <div id="contact">
+            <h2 class="section-titles">contact us</h2>
+            <div id="contact-section">
+                <form action="https://formsubmit.co/your@mail.com" method="post" id="contact-section-1">
+                    <div class="form-group">
+                        <h3 class="section-subtitles">send us a message</h3>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">your name:</label>
+                        <input type="text" name="username" id="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="useremail">your email:</label>
+                        <input type="email" name="useremail" id="useremail">
+                    </div>
+                    <div class="form-group">
+                        <label for="usertelephone">telephone:</label>
+                        <input type="tel" name="usertelephone" id="usertelephone">
+                    </div>
+                    <div class="form-group">
+                        <label for="usermessage">message:</label>
+                        <textarea name="usermessage" id="usermessage" cols="30" rows="6"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Send">
+                    </div>
+                    <input type="hidden" name="_subject" value="New Message from E-FOOD!">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="nextPageUrl">
+                </form>
+                <div id="contact-section-2">
+                    <div>
+                        <h3 class="section-subtitles">contact information</h3>
+                        <span class="contact-info">
+                            <p>Phone: <br><a href="tel:+254700000000"><i class="fa-solid fa-phone"></i> +254700000000</a><br><a href="tel:+254700000000"><i class="fa-solid fa-phone"></i> +254700000000</a></p><br>
+                            <p>Email: <br><a href="mailto:your@mail.com"><i class="fa-solid fa-envelope"></i> your@mail.com</a></p>
+                        </span>
+                    </div>
+                    <div>
+                        <h3 class="section-subtitles">Social media profiles</h3>
+                        <span class="contact-socials">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-discord"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-pinterest"></i></a>
+                        </span>
+                        <a href="https://wa.me/+254700000000" target="_blank" id="chat-me">Chat with me now <i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Terms of Service</h3>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Contact Info</h3>
+                        <ul>
+                            <li>Email: info@vibesandinshallah.com</li>
+                            <li>Phone: +1 555-555-5555</li>
+                            <li>Address: 123 Main St, Anytown USA</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Service 1</a></li>
+                            <li><a href="#">Service 2</a></li>
+                            <li><a href="#">Service 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">
+                Vibes and Inshallah &copy;2023
+            </p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
